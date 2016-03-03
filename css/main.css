@@ -1,1 +1,25 @@
-/* Inserta tu código aqui */
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+/*-----------------------Nav----------------------*/
+.main-nav p {
+ 
+}
+
+
+
+/*---------------------------------------------*/
+
+
+
+
+/*----------------------Footer-----------------------*/
+   .columna-footer {
+        width: 50%;
+        float: left;
+    }
+    .columna-oculta {
+        display: none;
+    }
+

@@ -12,3 +12,28 @@
 .bold {
     font-weight: bold;
 }
+.pd-left-right-3 {
+    padding-left: 3%;
+    padding-right: 3%;
+}
+.text-center{
+	text-align: center;
+}
+.text-left{
+	text-align: left;
+}
+.text-right{
+	text-align: right;
+}
+.text-justify {
+	text-align: justify;
+}
+.text-white{
+	color: white;
+}
+.pull-left {
+	float: left;
+}
+.pull-right {
+	float: right;
+}
