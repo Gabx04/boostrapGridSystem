@@ -12,9 +12,6 @@
 .bold {
     font-weight: bold;
 }
-.border-none {
-    border: none;
-}
 .sinpadding {
     padding-right: 0;
     padding-left: 0;
@@ -22,6 +19,13 @@
 .pd-left-right-3 {
     padding-left: 3%;
     padding-right: 3%;
+}
+.pd-right-5 {
+    padding-left: 0;
+    padding-right: 5px;
+}
+.lineheight-1 {
+    line-height: 1;
 }
 .text-center{
 	text-align: center;
