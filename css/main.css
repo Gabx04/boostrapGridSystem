@@ -14,8 +14,8 @@
 /*------------------------News---------------------*/
 .news {
     padding-top: 20px;
-    padding-bottom: 40px;
-    border-bottom: 10px solid #444;
+    padding-bottom: 30px;
+    border-bottom: 7px solid #444;
 }
 .nota, .agenda, .mas-informacion {
     border-bottom: 1px solid #D6D6D6;
@@ -49,6 +49,7 @@
 .titular {
     font-size: 16px;
     font-weight: 700;
+    color: black;
 }
 .texto {
     font-family: Verdana, sans-serif;
@@ -121,6 +122,9 @@
     background-color: white;
     border: 1px solid black;
 }
+.nota-video .ver-mas{
+    margin-right: 3%;
+}
 .agenda, .mas-informacion, .magazine {
     margin-left: 10px;
     margin-left: 10px;
@@ -158,6 +162,9 @@
     font-size: 18px;
     font-weight: 700;
 }
+.mas-informacion {
+    padding-top: 3px;
+}
 .mas-informacion div {
     margin: 15px 0;
 }
@@ -170,7 +177,7 @@
     line-height: 1;
 }
 .infoenlaces {
-    margin-top: 20px;
+    margin-top: 15px;
     margin-left: 0;
     padding-left: 10px;
 }
@@ -221,11 +228,20 @@ ul.sin-estilo li {
 }
 
 /*----------------------Footer-----------------------*/
-   .columna-footer {
-        width: 50%;
-        float: left;
-    }
-    .columna-oculta {
-        display: none;
-    }
-
+.columna-footer {
+    width: 50%;
+    float: left;
+}
+.columna-oculta {
+    display: none;
+}
+footer .sin-estilo {
+    padding-left: 0;
+}
+footer .sin-estilo li {
+    margin-left: 0;
+}
+.listas-footer {
+    height: 150px;
+    margin: 15px 0;
+}
