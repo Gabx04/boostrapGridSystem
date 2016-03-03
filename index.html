@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<title>Bootstrap: Grid System</title>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/bootstrap.css.map">
 	<link rel="stylesheet" href="css/main.css">
 
     <!-- HTML5 Shim and Respond.js Agrega soporte para elementos HTML5 y media quieries en IE8 -->
@@ -14,11 +15,541 @@
     <![endif]-->	
 </head>
 <body>
-	<!-- Inserta tu código aqui -->
+	<div class="container">
+	  <div class="row">
+	     <div class="col-xs-6">
+	     <h1>Site name</h1>
+	   </div>
+	   <div class="col-xs-6">
+	     <nav class="main-nav">
+	       <div class="col-xs-6 col-md-3">
+	           <p>
+	             <span class="glyphicon glyphicon-home"></span>
+	             Noticias
+	           </p>
+	       </div>
+	       <div class="col-xs-6 col-md-3">
+	           <p>
+	             <span class="glyphicon glyphicon-home"></span>
+	             Enlaces RSS
+	           </p>
+	       </div>
+	       <div class="hidden-xs hidden-sm col-md-6">
+	         <div class="buscador">
+	           <input type="search" id="search" placeholder="Ingresa tu búsqueda" />
+	           
+	         </div>
+	       </div>
+	    </nav>
+	   </div>
+	   </div>
+    <div class="row">
+      <div class="col-xs-12">
+        <nav class="nav navbar-default">
+        <div class="navbar-header">
+           <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+               <span class="sr-only">Toggle navigation</span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+            </button>
+       </div>
+       <div id="navbarCollapse" class="collapse navbar-collapse">
+         <ul class="nav nav-tabs">
+  	      <li role="presentation" class="active">
+  	        <a href="#">Bienvenido</a>
+  	      </li>
+  	      <li role="presentation">
+  	         <a href="#">Actualidades</a>
+  	       </li>
+  	       <li role="presentation">
+  	         <a href="#">En directo</a>
+  	       </li>
+  	       <li role="presentation">
+  	         <a href="#">Reporte financiero</a>
+  	       </li>
+  	       <li role="presentation">
+  	         <a href="#">Nuestra oferta</a>
+  	       </li>
+  	       <li role="presentation">
+  	         <a href="#">De nosotros a usted</a>
+  	       </li>
+        </ul>
+       </div>
+	  </nav>
+      </div>
+    </div>	 
+
+	  <section class="news">
+	    <div class="col-xs-12 col-sm-7 col-md-6 col-lg-6">
+	      <div class="nota">
+	        <div class="row">
+	        	<div class="seccion">
+	        		<p>Historia destacada</p>
+	      		</div>
+		        <p class="tipo-contenido">
+		            Artículo
+		        </p>
+		        <p class="fecha-publicacion">
+		            publicado el 09/10/15
+		        </p>
+	        </div>
+	        <div class="contenido">
+	          <p class="titular">
+	            Lorem ipsum dolor sit amet
+	          </p>
+	          <p class="texto">
+	            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, totam, fugit dicta sapiente atque nobis fugiat voluptatem perferendis harum sunt earum amet mollitia voluptatibus pariatur rem natus odio at. Perferendis, provident, accusamus fugit iste nisi vero iure eaque quod voluptatem impedit ipsam expedita sequi distinctio consequuntur doloribus deserunt quaerat minus aspernatur. Officia, cumque quis odio!
+	          </p>
+	        </div>
+	          <div class="row">
+	            <p class="ver-mas">
+	              <span class="glyphicon glyphicon-bookmark"></span>
+	              Ver más...
+	            </p>
+	            <p class="etiquetas">
+	              <span class="glyphicon <glyphicon-tag></glyphicon-tag>"></span>
+	             Etiquetas:
+	             <a href="">lorem</a>
+	             <a href="">ipsum</a>
+	             <a href="">diligat</a>
+	            </p>
+	          </div>
+	      </div>
+	      <div class="nota">
+	        <div class="row">
+		        <p class="webzone">Webzone</p>		
+		        <p class="tipo-contenido">
+		            Preguntas
+		        </p>
+		        <p class="fecha-publicacion">
+		            publicado el 09/10/15
+		        </p>
+	        </div>
+	        <div class="contenido">
+		    	<p class="titular">
+		            Lorem ipsum dolor sit amet
+		        </p>
+	          	<p class="texto">
+	            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, totam, fugit dicta sapiente atque nobis fugiat voluptatem perferendis harum sunt earum amet mollitia voluptatibus pariatur rem natus odio at. Perferendis, provident, accusamus fugit iste nisi vero iure eaque quod voluptatem impedit ipsam expedita sequi distinctio consequuntur doloribus deserunt quaerat minus aspernatur. Officia, cumque quis odio!
+	          	</p>
+	        </div>
+	          <div class="row">
+	            <p class="ver-mas">
+	              <span class="glyphicon glyphicon-bookmark"></span>
+	              Ver más...
+	            </p>
+	            <p class="etiquetas">
+	              <span class="glyphicon <glyphicon-tag></glyphicon-tag>"></span>
+	             Etiquetas:
+	             <a href="">lorem</a>
+	             <a href="">ipsum</a>
+	             <a href="">diligat</a>
+	            </p>
+	          </div>
+	      </div>
+	      <div class="nota">
+	        <div class="row">
+	          <p class="tipo-contenido">
+	            Artículo
+	          </p>
+	          <p class="fecha-publicacion">
+	            publicado el 09/10/15
+	          </p>
+	        </div>
+	        <div class="contenido">
+	          <p class="titular">
+	            Lorem ipsum et diligat gentris
+	          </p>
+	          <div class="foto"></div>
+	          <p class="texto">
+	            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, totam, fugit dicta sapiente atque nobis fugiat voluptatem perferendis harum sunt earum amet mollitia voluptatibus pariatur rem natus odio at. Perferendis, provident, accusamus fugit iste nisi vero iure eaque quod voluptatem impedit ipsam expedita sequi distinctio consequuntur doloribus deserunt quaerat minus aspernatur. Officia, cumque quis odio!
+	          </p>
+	        </div>
+	          <div class="row">
+	            <p class="ver-mas">
+	              <span class="glyphicon glyphicon-bookmark"></span>
+	              Ver más...
+	            </p>
+	            <p class="etiquetas">
+	              <span class="glyphicon <glyphicon-tag></glyphicon-tag>"></span>
+	             Etiquetas:
+	             <a href="">lorem</a>
+	             <a href="">ipsum</a>
+	             <a href="">diligat</a>
+	            </p>
+	          </div>
+	      </div>
+	      <div class="nota">
+	        <div class="row">
+	          <p class="tipo-contenido">
+	            Artículo
+	          </p>
+	          <p class="fecha-publicacion">
+	            publicado el 09/10/15
+	          </p>
+	        </div>
+	        <div class="contenido">
+	          <p class="titular">
+	            Lorem ipsum dolor sit amet
+	          </p>
+	          <p class="texto">
+	            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, totam, fugit dicta sapiente atque nobis fugiat voluptatem perferendis harum sunt earum amet mollitia voluptatibus pariatur rem natus odio at. Perferendis, provident, accusamus fugit iste nisi vero iure eaque quod voluptatem impedit ipsam expedita sequi distinctio consequuntur doloribus deserunt quaerat minus aspernatur. Officia, cumque quis odio!
+	          </p>
+	        </div>
+	          <div class="row">
+	            <p class="ver-mas">
+	              <span class="glyphicon glyphicon-bookmark"></span>
+	              Ver más...
+	            </p>
+	            <p class="etiquetas">
+	              <span class="glyphicon <glyphicon-tag></glyphicon-tag>"></span>
+	             Etiquetas:
+	             <a href="">lorem</a>
+	             <a href="">ipsum</a>
+	             <a href="">diligat</a>
+	            </p>
+	          </div>
+	      </div>
+	    </div>
+	    <div class="col-xs-12 col-sm-5 col-md-6 col-lg-6">
+	      <div class="col-xs-12 col-md-7 col-lg-7">
+	      	<div class="nota">
+		        <div class="row">
+		        	<div class="seccion">
+		        		<p>Historia destacada</p>
+		      		</div>
+		      		<video controls="controls">
+		      			<source src="sintel.ogg" type="video/ogg"/>
+             			<source src="sintel.mp4" type="video/mp4"/>
+             			<source src="sintel.webm" type="video/webm"/>
+		      		</video>
+		      		<div class="contenido">
+		          		<p class="titular">
+			            	Claire Dupond
+		          		</p>
+		          		<p class="texto">
+		            		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, totam, fugit dicta sapiente atque nobis fugiat voluptatem perferendis harum sunt earum amet mollitia voluptatibus pariatur rem natus odio at. Perferendis, provident, accusamus.
+		          		</p>
+		        	</div>
+		        </div>
+		        <div class="row">
+		        	<p class="fecha-publicacion">
+			            publicado el 09/10/15
+			        </p>
+		            <p class="ver-mas">
+		              <span class="glyphicon glyphicon-bookmark"></span>
+		              Ver más...
+		            </p>
+		        </div>
+	      </div>
+	      	<div class="agenda">
+	      		<div class="seccion">
+		        	<p>Agenda</p>
+		      	</div>
+		      	<div class="row">
+		      		<div class="calendario">
+		      			<p>23 Enero</p>
+		      		</div>
+		      		<div class="evento">
+		      			<p class="titular">Lorem ipsum dolor sit</p>
+		      			<p class="texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+		      			<p class="texto">De 23 a 28 Diciembre 2015</p>
+		      		</div>
+		      	</div>
+		      	<div class="row">
+		      		<div class="calendario">
+		      			<p>23 Enero</p>
+		      		</div>
+		      		<div class="evento">
+		      			<p class="titular">Lorem ipsum dolor sit</p>
+		      			<p class="texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+		      			<p class="texto">De 23 a 28 Diciembre 2015</p>
+		      		</div>
+		      	</div>
+		      	<div class="row">
+		      		<div class="calendario">
+		      			<p>23 Enero</p>
+		      		</div>
+		      		<div class="evento">
+		      			<p class="titular">Lorem ipsum dolor sit</p>
+		      			<p class="texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+		      			<p class="texto">De 23 a 28 Diciembre 2015</p>
+		      		</div>
+		      	</div>
+		      	<div class="row">
+		      		<div class="calendario">
+		      			<p>23 Enero</p>
+		      		</div>
+		      		<div class="evento">
+		      			<p class="titular">Lorem ipsum dolor sit</p>
+		      			<p class="texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+		      			<p class="texto">De 23 a 28 Diciembre 2015</p>
+		      		</div>
+		      	</div>
+	      	</div>
+	      	<div class="mas-informacion">
+	      		<p class="titulo-bold">Más informacion</p>
+	      		<div>
+	      			<p class="enlacesdeinteres">Localidades</p>
+	      			<p class="titular">Lorem ipsum dolor sit</p>
+	      			<p class="texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+	      		</div>
+	      		<div>
+	      			<p class="enlacesdeinteres">Hospimedia</p>
+	      			<p class="titular">Lorem ipsum dolor sit</p>
+	      			<p class="texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+	      		</div>
+	      	</div>
+	      	
+	      </div>
+	      <div class="hidden-xs hidden-sm col-md-5 col-lg-5">
+	        <div class="mas-informacion">
+	        	<p class="titulo-bold">
+	        		Más informacion
+	        	</p>
+	        	<ul>
+	        		<li>
+	        		<a href="" class="enlaces">
+	        			<span class="glyphicon glyphicon-bookmark"></span>
+	        			Finanzas y fiscalización
+	        		</a>
+	        	</li>
+	        		<li>
+	        		<a href="" class="enlaces">
+	        			<span class="glyphicon glyphicon-bookmark"></span>
+	        			Inversión y equipos
+	        		</a>
+	        	</li>
+	        		<li>
+	        		<a href="" class="enlaces">
+	        			<span class="glyphicon glyphicon-bookmark"></span>
+	        			Medio ambiente
+	        		</a>
+	        	</li>
+	        		<li>
+	        		<a href="" class="enlaces">
+	        			<span class="glyphicon glyphicon-bookmark"></span>
+	        			Habitad / urbanismo
+	        		</a>
+	        	</li>
+	        		<li>
+	        		<a href="" class="enlaces">
+	        			<span class="glyphicon glyphicon-bookmark"></span>
+	        			Sanidad
+	        		</a>
+	        	</li>
+	        		<li>
+	        		<a href="" class="enlaces">
+	        			<span class="glyphicon glyphicon-bookmark"></span>
+	        			Social / Servicios
+	        		</a>
+	        	</li>
+	        		<li>
+	        		<a href="" class="enlaces">
+	        			<span class="glyphicon glyphicon-bookmark"></span>
+	        			Transporte
+	        		</a>
+	        	</li>
+	        	</ul>
+	        </div>
+	        <div class="magazine">
+	        	<p class="titulo-normal uppercase">magazine</p>
+	        	<p class="titulo-bold uppercase">ecodefi</p>
+	        	<p class="texto uppercase">enquete</p>
+	        	<p class="texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, error soluta debitis magni ipsam laudantium dolore minima natus.</p>
+	        	<br>
+	        	<p class="texto uppercase">preguntas</p>
+	        	<p class="texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+	        </div>
+	        <div class="magazine">
+	        	<p class="titulo-normal uppercase">magazine</p>
+	        	<p class="titulo-bold uppercase">acciones comunes</p>
+	        	<p class="texto uppercase">enquete</p>
+	        	<p class="texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, error soluta debitis magni ipsam laudantium dolore minima natus.</p>
+	        	<br>
+	        	<p class="texto uppercase">preguntas</p>
+	        	<p class="texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+	        </div>
+	        <div class="magazine">
+	        	<p class="negrita">Nueva generación de la internet</p>
+	        </div>
+	      </div>
+	    </div>
+	    <hr class="borde-inferior">
+	  </section>
+	  <footer>
+	  	<div class="row">
+	  		<div class="20-por-ciento col-sm-3 col-xs-6">
+	  			<div class="listas-footer">
+	  				<p class="titular">Rubros</p>
+	  				<ul>
+		        		<li>
+			        		<a href="" class="enlaces">
+			        			<span class="glyphicon glyphicon-bookmark"></span>
+			        			Actualidades
+			        		</a>
+		        		</li>
+		        		<li>
+			        		<a href="" class="enlaces">
+			        			<span class="glyphicon glyphicon-bookmark"></span>
+			        			En directo
+			        		</a>
+			        	</li>
+		        		<li>
+			        		<a href="" class="enlaces">
+			        			<span class="glyphicon glyphicon-bookmark"></span>
+			        			Reporte financiero
+			        		</a>
+			        	</li>
+		        		<li>
+			        		<a href="" class="enlaces">
+			        			<span class="glyphicon glyphicon-bookmark"></span>
+			        			Nuestra oferta
+			        		</a>
+			        	</li>
+		        		<li>
+			        		<a href="" class="enlaces">
+			        			<span class="glyphicon glyphicon-bookmark"></span>
+			        			De Nosotros a ustedes
+			        		</a>
+			        	</li>
+	        		</ul>
+	  			</div>
+	  		</div>
+	  		<div class="20-por-ciento col-sm-3 col-xs-6">
+	  			<div class="listas-footer">
+	  				<p class="titular">Expertise</p>
+		  			<ul>
+		        		<li>
+			        		<a href="" class="enlaces">
+			        			<span class="glyphicon glyphicon-bookmark"></span>
+			        			Finanzas y fiscalización
+			        		</a>
+			        	</li>
+		        		<li>
+			        		<a href="" class="enlaces">
+			        			<span class="glyphicon glyphicon-bookmark"></span>
+			        			Inversión y equipos
+			        		</a>
+			        	</li>
+		        		<li>
+			        		<a href="" class="enlaces">
+			        			<span class="glyphicon glyphicon-bookmark"></span>
+			        			Medio ambiente
+			        		</a>
+			        	</li>
+		        		<li>
+			        		<a href="" class="enlaces">
+			        			<span class="glyphicon glyphicon-bookmark"></span>
+			        			Habitad / urbanismo
+			        		</a>
+			        	</li>
+		        		<li>
+			        		<a href="" class="enlaces">
+			        			<span class="glyphicon glyphicon-bookmark"></span>
+			        			Sanidad
+			        		</a>
+			        	</li>
+		        		<li>
+			        		<a href="" class="enlaces">
+			        			<span class="glyphicon glyphicon-bookmark"></span>
+			        			Social / Servicios
+			        		</a>
+			        	</li>
+		        		<li>
+			        		<a href="" class="enlaces">
+			        			<span class="glyphicon glyphicon-bookmark"></span>
+			        			Transporte
+			        		</a>
+			        	</li>
+	        		</ul>
+	  			</div>
+	  		</div>
+	  		<div class="20-por-ciento hidden-xs hidden-sm">
+	  			<div class="listas-footer">
+	  				<p class="titular">Suscripción</p>
+		  			<ul>
+		  				<li>
+			        		<a href="" class="enlaces">
+			        			<span class="glyphicon glyphicon-bookmark"></span>
+			        			Todo el flujo
+			        		</a>
+			        	</li>
+			        	<li>
+			        		<a href="" class="enlaces">
+			        			<span class="glyphicon glyphicon-bookmark"></span>
+			        			Flujo RSS para expertos
+			        		</a>
+			        	</li>
+			        	<li>
+			        		<a href="" class="enlaces">
+			        			<span class="glyphicon glyphicon-bookmark"></span>
+			        			Noticias
+			        		</a>
+			        	</li>
+		  			</ul>
+	  			</div>
+	  		</div>
+	  		<div class="20-por-ciento col-sm-3 col-xs-6">
+	  			<div class="listas-footer">
+	  				<p class="titular">Nosotros</p>
+		  			<ul>
+		  				<li>
+			        		<a href="" class="enlaces">
+			        			<span class="glyphicon glyphicon-bookmark"></span>
+			        		¿Quienes somos?	
+			        		</a>
+			        	</li>
+			        	<li>
+			        		<a href="" class="enlaces">
+			        			<span class="glyphicon glyphicon-bookmark"></span>
+			        			Plan del sitio
+			        		</a>
+			        	</li>
+			        	<li>
+			        		<a href="" class="enlaces">
+			        			<span class="glyphicon glyphicon-bookmark"></span>
+			        			Información legal
+			        		</a>
+			        	</li>
+		  			</ul>
+	  			</div>
+	  		</div>
+	  		<div class="20-por-ciento col-sm-3 col-xs-6">
+	  			<div class="listas-footer">
+	  				<p class="titular">Contacto</p>
+					<ul>
+						<li>
+			        		<a href="" class="enlaces">
+			        			<span class="glyphicon glyphicon-bookmark"></span>
+			        			Contáctanos
+			        		</a>
+			        	</li>
+			        	<li>
+			        		<a href="" class="enlaces">
+			        			<span class="glyphicon glyphicon-bookmark"></span>
+			        			FAQ
+			        		</a>
+			        	</li>
+			        	<li>
+			        		<a href="" class="enlaces">
+			        			<span class="glyphicon glyphicon-bookmark"></span>
+			        			Haga sus preguntas
+			        		</a>
+			        	</li>
+					</ul>
+	  			</div>
+	  		</div>
+	  	</div>
+	  </footer>
+	</div>
 
 	<!-- Incluir todos tus scripts apartir de este punto -->
     <!-- jQuery (necesario para que funcionen los componentes de Bootstrap) -->
     <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/jquery-1.11.3.min.map"></script>
     <script src="js/bootstrap.min.js"></script>
+    
 </body>
 </html>
