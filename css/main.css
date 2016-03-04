@@ -6,13 +6,54 @@
     margin-left: 0;
 }
 /*-----------------------Nav----------------------*/
-.main-nav p {
- 
+.main-nav {
+    margin-top: 30px;
+}
+.enlaces-nav {
+    margin-top: 10px;
+    font-size: 16px;
+}
+.buscador span {
+    font-size: 24px;
+    font-weight: 700;
+    padding-right: 15px;
+}
+#search {
+    border: 1px solid black;
+    font-size: 16px;
+    padding: 3px 2%;
+    width: 50%;
+}
+.boton {
+    border: 1px solid black;
+    border-radius: 4px;
+    font-size: 18px;
+    background-color: #E6E6E6;
+    padding: 2px 3px;
+    width: 30%;
 }
 /*------------------------Tab---------------------*/
+.navbar-default {
+    background-color: #D6D6D6;
+    padding-top: 15px;
+}
+.nav-tabs li a {
+    font-family: Verdana, sans-serif;
+    font-size: 16px;
+    color: black;
+    padding-left: 18px;
+    padding-right: 18px;
+    border: none;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+.navbar-toggle {    
+    border: none;
+}
 .navbar-default .navbar-toggle .icon-bar {
     background-color: black;
 }
+
 
 /*------------------------News---------------------*/
 .news {
@@ -129,7 +170,6 @@
     margin-right: 3%;
 }
 .agenda, .mas-informacion, .magazine {
-    margin-left: 10px;
     margin-left: 10px;
 }
 .agenda {
